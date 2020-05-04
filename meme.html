@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="meme.css">
+    </head>
+    <body>
+        <div id='allwrapper'>
+            <div id="contentWrapper">
+              <div id='formWrapper'>
+                <h1>Custom Meme Maker</h1>
+                <form action="">
+                  <label for="imgLink">Paste Your Image URL Here: </label>
+                  <input id="memeInput" type="url" name="imgLink" placeholder="http://" required><br>
+                  <label for="topText">Top Text</label>
+                  <input type="text" name='topText' id='topText'><br>
+                  <label for="bottomText">Bottom Text</label>
+                  <input type="text" name='bottomText' id='bottomText'><br>
+                  <input id="submit" type="submit">
+                </form>
+              </div>
+              <div id='output'></div>
+            </div>
+          </div>
+        <script src="meme.js" async defer></script>
+    </body>
+</html>
