@@ -4,14 +4,16 @@ body {
 }
 
 #allwrapper {
-	display: grid;
-	place-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #contentWrapper {
 	width: 65%;
-	display: grid;
-	place-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #formWrapper {
@@ -36,12 +38,11 @@ input {
 }
 
 #output {
-	/*   display: flex;
-      width: 100%;
-    justify-content: center; */
-	display: grid;
-	grid-template: 1fr / 1fr;
-	place-items: center;
+	display: flex;
+	flex-direction: column-reverse;
+	width: 1000px;
+	/* grid-template: 1fr / 1fr;
+	place-items: center; */
 }
 
 .memeWrapper {
